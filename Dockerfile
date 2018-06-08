@@ -23,6 +23,11 @@ RUN \
   mv Mirth\ Connect/* /opt/mirth-connect/ && \
   chown -R mirth /opt/mirth-connect
 
+COPY mirth.properties /tmp
+
+RUN \
+  cp -af /tmp/mirth.properties /opt/mirth-connect/conf/
+
 
 WORKDIR /opt/mirth-connect
 
