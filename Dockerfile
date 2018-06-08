@@ -1,4 +1,4 @@
-FROM openjdk:9
+FROM java
 
 ENV MIRTH_CONNECT_VERSION 3.6.0.b2287
 
