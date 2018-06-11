@@ -31,8 +31,7 @@ RUN \
   cp -af /tmp/mirth.properties /opt/mirth-connect/conf/ && \
   cp -af /tmp/extension.properties /opt/mirth-connect/appdata/ && \
   cp -af /tmp/fhir.tar.gz /opt/mirth-connect/extensions/ && \
-  tar -xvzf /opt/mirth-connect/extensions/fhir.tar.gz && \
-  #rm -f /opt/mirth-connect/extensions/fhir.tar.gz
+  tar -xvzf /opt/mirth-connect/extensions/fhir.tar.gz 
 
 
 
